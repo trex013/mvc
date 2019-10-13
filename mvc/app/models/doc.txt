@@ -1,0 +1,5 @@
+This would contain all the models files to be 
+created that would inherit the Models class
+
+
+We need to load in a model via our controller

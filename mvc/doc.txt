@@ -1,0 +1,2 @@
+We need to create an access file that allows us the get data in the get Url 
+without accessing other pages

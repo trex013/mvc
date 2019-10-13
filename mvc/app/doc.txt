@@ -1,0 +1,8 @@
+This app folder contains all the mvc - app dependency folders
+
+it also cotains the initialization file that would 
+initialise or include the useful core functionality
+
+The htaccess file is created in this directory (App root)
+
+Option -Indexes prevents the rendering of files other than 'index' 
