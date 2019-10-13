@@ -1,0 +1,31 @@
+
+
+--flexyquery (sql, returnValue)
+**sql -- is your sql query in string
+**returnValue -- is a boolean that tells if the query would return a returnValue
+it has a default of "false"
+
+--provideAll(table_name)
+**Table_name -- String-Name of the table to which all the data is to be gotten
+
+--provideWhere(where, table_name)
+**Table_name -- Name of the table to which all the data is to be gotten
+**where -- Associative array - keys=columns to find, values= their values
+
+--provideColumnsWhere(where, col, table_name)
+**Table_name -- Name of the table to which all the data is to be gotten
+**where -- Associative array - keys=columns to find, values= their values
+**col -- array - Columns to be provided
+
+--provideColumns(col, table_name)
+**Table_name -- Name of the table to which all the data is to be gotten
+**col -- array - Columns to be provided
+
+--changeWhere(where, set, table_name)
+**Table_name -- Name of the table to which all the data is to be changed
+**where -- Associative array - keys=columns to find, values= their values
+**set -- Associative array - keys=columns to set, values= their values
+
+--addOne(data, table_name)
+**Table_name -- Name of the table to which all the data is to be added
+**data -- Associative array - keys=columns to be added, values= their values
