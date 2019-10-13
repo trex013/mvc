@@ -1,0 +1,498 @@
+@charset "utf-8";
+/*  Icons CSS  */
+/*  By rexFoundations  */
+/*  This can be used by copying the relevant 
+	code neccessary for your new work. copy 
+	to your new work the code and use the
+	classes.
+	Also copy the html too. Don't forget
+*/
+
+
+.icon {
+	display:inline-block;
+	content:"";
+	width:3rem;
+	height:3rem;
+}
+
+[class *="icon-"]{
+	background-repeat:no-repeat;
+}
+
+.icon-bars {
+	background-image:url(svg/bars.svg);
+	background-position:center;
+	background-size:80%;
+}
+.icon-home {
+	background-image:url(svg/home.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-anchor {
+	background-image:url(svg/anchor.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-angle-double-down {
+	background-image:url(svg/angle-double-down.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-ambulance {
+	background-image:url(svg/ambulance.svg);
+	background-position:center;
+	background-size:100%;
+} 
+
+.icon-angle-double-left {
+	background-image:url(svg/angle-double-left.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-angle-double-right {
+	background-image:url(svg/angle-double-right.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-angle-up {
+	background-image:url(svg/angle-up.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-angle-down {
+	background-image:url(svg/angle-down.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-tools {
+	background-image:url(svg/tools.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-trash {
+	background-image:url(svg/trash.svg);
+	background-position:center;
+	background-size:80%;
+}
+.icon-window-close {
+	background-image:url(svg/window-close.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-archive {
+	background-image:url(svg/archive.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-arrow-alt-circle-right {
+	background-image:url(svg/arrow-alt-circle-right.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-arrow-alt-circle-left {
+	background-image:url(svg/arrow-alt-circle-left.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-arrow-alt-circle-down {
+	background-image:url(svg/arrow-alt-circle-down.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-arrow-alt-circle-up {
+	background-image:url(svg/arrow-alt-circle-up.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-gamepad {
+	background-image:url(svg/gamepad.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-arrow-circle-up {
+	background-image:url(svg/arrow-circle-up.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-arrow-circle-down {
+	background-image:url(svg/arrow-circle-down.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-arrow-circle-left {
+	background-image:url(svg/arrow-circle-left.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-arrow-circle-right {
+	background-image:url(svg/arrow-circle-right.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-asterisk {
+	background-image:url(svg/asterisk.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-at {
+	background-image:url(svg/at.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-award {
+	background-image:url(svg/award.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-arrows-alt-v {
+	background-image:url(svg/arrows-alt-v.svg);
+	background-position:center;
+	background-size:50%;
+}
+
+.icon-arrows-alt-h{
+	background-image:url(svg/arrows-alt-h.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-arrows-alt {
+	background-image:url(svg/arrows-alt.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-address-book {
+	background-image:url(svg/address-book.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-address-card {
+	background-image:url(svg/address-card.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-bell {
+	background-image:url(svg/bell.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-bell-slash {
+	background-image:url(svg/bell-slash.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-bookmark {
+	background-image:url(svg/bookmark.svg);
+	background-position:center;
+	background-size:75%;
+}
+
+.icon-building {
+	background-image:url(svg/building.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-calendar {
+	background-image:url(svg/calendar.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-calendar-alt {
+	background-image:url(svg/calendar-alt.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-calendar-check {
+	background-image:url(svg/calendar-check.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-calendar-minus {
+	background-image:url(svg/calendar-minus.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-calendar-plus {
+	background-image:url(svg/calendar-plus.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-calendar-times {
+	background-image:url(svg/calendar-times.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-caret-square-up {
+	background-image:url(svg/caret-square-up.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-caret-square-down {
+	background-image:url(svg/caret-square-down.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-caret-square-left {
+	background-image:url(svg/caret-square-left.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-caret-square-right {
+	background-image:url(svg/caret-square-right.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-chart-bar {
+	background-image:url(svg/chart-bar.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-check-square {
+	background-image:url(svg/check-square.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-check-circle {
+	background-image:url(svg/check-circle.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-circle {
+	background-image:url(svg/circle.svg);
+	background-position:center;
+	background-size:90%;
+}
+
+.icon-clipboard {
+	background-image:url(svg/clipboard.svg);
+	background-position:center;
+	background-size:75%;
+}
+
+.icon-clock {
+	background-image:url(svg/clock.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-clone {
+	background-image:url(svg/clone.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-check-circle {
+	background-image:url(svg/check-circle.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-comment-dots {
+	background-image:url(svg/comment-dots.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-closed-captioning {
+	background-image:url(svg/closed-captioning.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-comment-alt {
+	background-image:url(svg/comment-alt.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-comment {
+	background-image:url(svg/comment.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-compass {
+	background-image:url(svg/compass.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-copy {
+	background-image:url(svg/copy.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-copyright {
+	background-image:url(svg/copyright.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-credit-card {
+	background-image:url(svg/credit-card.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-dizzy {
+	background-image:url(svg/dizzy.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-dot-circle {
+	background-image:url(svg/dot-circle.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-edit {
+	background-image:url(svg/edit.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-envelope {
+	background-image:url(svg/envelope.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-envelope-open {
+	background-image:url(svg/envelope-open.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-eye {
+	background-image:url(svg/eye.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-eye-slash {
+	background-image:url(svg/eye-slash.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-file {
+	background-image:url(svg/file.svg);
+	background-position:center;
+	background-size:72%;
+}
+
+.icon-file-image {
+	background-image:url(svg/file-image.svg);
+	background-position:center;
+	background-size:72%;
+}
+.icon-file-archive {
+	background-image:url(svg/file-archive.svg);
+	background-position:center;
+	background-size:72%;
+}
+
+.icon-file-audio {
+	background-image:url(svg/file-audio.svg);
+	background-position:center;
+	background-size:72%;
+}
+
+.icon-file-pdf {
+	background-image:url(svg/file-pdf.svg);
+	background-position:center;
+	background-size:72%;
+}
+
+.icon-file-video {
+	background-image:url(svg/file-video.svg);
+	background-position:center;
+	background-size:72%;
+}
+
+.icon-folder {
+	background-image:url(svg/folder.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-folder-open {
+	background-image:url(svg/folder-open.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-flag {
+	background-image:url(svg/flag.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-user {
+	background-image:url(svg/user.svg);
+	background-position:center;
+	background-size:80%;
+}
+
+.icon-user-circle {
+	background-image:url(svg/user-circle.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-user-lock {
+	background-image:url(svg/user-lock.svg);
+	background-position:center;
+	background-size:100%;
+}
+
+.icon-lock {
+	background-image:url(svg/lock.svg);
+	background-position:center;
+	background-size:80%;
+}

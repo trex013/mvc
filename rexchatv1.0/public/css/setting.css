@@ -1,0 +1,81 @@
+.inp-file {overflow: hidden;}
+.inp-file input {
+    display: none; }
+  .inp-file span.inp-file-btn {
+    position: relative;
+    display: block;
+    background-color: white;
+    max-width: 50em;
+    height: 5rem;
+    transform: translateY(-3rem);
+    text-align: center;
+    opacity:0.2;
+    transition: opacity .5s;
+    padding: 1rem;
+}
+
+.inp-file span.inp-file-btn:hover {
+    background-color: pink;
+    opacity: 1;
+
+}
+
+    .inp-file span.inp-file-btn span {
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
+        display: inline-block;
+        vertical-align: top;
+    }
+    .inp-file span.inp-file-btn i.icon {
+      font-size: 2rem;
+      font-style: normal;
+      width: 3rem;
+      height: 3rem;
+      font-weight: bold; }
+
+
+.header-container {
+    position: relative;
+}
+
+.header-container .update-btn-container {
+    position: absolute;
+    bottom: 0px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.up {
+    z-index:10000;
+}
+.section-container {
+    padding:10rem 15%;
+}
+.data-cont {
+    background-color: aliceblue;
+    padding: 4rem;
+}
+
+.data-cont input {
+    width: 100%;
+    height: 5rem;
+    padding: 0 3rem;
+}
+.data-cont input[type="submit"], .data-cont input[type="reset"]{
+    background-color: green;
+    width:50%;
+    float: left;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+section#dash-section {
+    min-height:100rem;
+}
+.inp-group-large:not(:last-child) {
+    margin-bottom:1rem;
+}
+

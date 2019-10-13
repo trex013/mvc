@@ -1,0 +1,290 @@
+nav#dash-nav {
+    position: relative;
+}
+
+nav#dash-nav > div.nav-container {
+    color: black;
+    padding: 2rem;
+    position: absolute;
+    width: 100%;
+}
+nav#dash-nav .row [class*="col-"] div.content {
+    padding: 0;
+}
+nav#dash-nav .row [class*="col-"] div.content.right {
+    text-align: right;
+}
+
+nav#dash-nav a.menu {
+    background-color: darkgray;
+}
+
+.menu-container input{
+    display: none;
+}
+
+.menu-container label {
+    position: relative;
+    z-index:1000;
+}
+.menu-items-container {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.0);
+    z-index: -1;
+    transition: all 1s;
+}
+
+.menu-items {
+    display: inline-block;
+    /* background-color: #fff; */
+    width: auto;
+    padding:2rem;
+}
+
+.menu-items {
+    transition: all 1.5s;
+    top:-100%;
+    opacity:0;
+}
+.menu-items ul {list-style-type: none;}
+
+.menu-items ul li {
+    color:white;
+}
+.menu-items ul li:not(:last-child) {
+    border-bottom: 2px solid green;
+}
+.menu-items ul li a {
+    letter-spacing: .5rem;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.btn-move-left.active {
+    color:green;
+}
+.btn-move-left:hover a {
+    transform: translateX(-2rem);
+}
+.menu-container input:checked ~ div.menu-items-container {
+    background-color: rgba(0,0,0,.9);
+    z-index: 10;
+}
+.menu-container input:checked ~ div.menu-items-container .menu-items {
+    opacity:1;
+    top:50%;
+}
+
+
+
+.right {z-index:2;position: relative;}
+
+
+header#dash-header {
+    background-color: rgba(36, 32, 18, 0.815);
+    height: 40rem;
+    overflow: hidden;
+    background-image: url(../../LOGOS/orange.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-container,.header-container .img-container {
+    height:100%;
+    background-color: inherit;
+}
+.header-container .img-container img {
+    height: 100%;
+
+    width:auto;
+}
+
+
+section#dash-section {
+    height:100rem;
+}
+
+.section-container {
+    padding:3rem;
+    height: 100%;
+}
+.section-container .row {
+    height: inherit;
+    padding: 0;
+    margin: 0;
+}
+.section-container .row [class*="col-"] {
+    height: inherit;
+}
+.section-container .row [class*="col-"] .content {
+    height: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.row1, .row2, .profile {
+    height:50%;
+    /* border:4px solid blue; */
+}
+
+.row1 {
+    padding-bottom: 3%;
+}
+.row2 {
+    padding-top: 3%;
+}
+.notification, .chats, .profile {
+    background-color: #fff;
+    height: 100%;
+}
+
+.chats {
+}
+
+.section-container .row [class*="col-"] .content h1 {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.p-details {
+    text-align: center;
+    position: relative;
+    border:1px solid green;
+    border-radius: .5rem;
+    min-height:4.5rem;
+    width:80%;
+    margin: 1rem 10%;
+    background-color: inherit;
+}
+
+.p-details label {
+    position: absolute;
+    top:0%;
+    left: 10%;
+    height: 2rem;
+    padding: 0 2px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-kerning: unset;
+    background-color: inherit;
+    transform: translateY(-50%);
+}
+
+.p-details span {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+
+.accordian-container {
+    margin: 3rem;
+    border: 2px solid green;
+}
+
+.btn.active {
+    background-color: red !important;
+}
+
+.accord-btn-msg {
+    position: relative;
+}
+.accord-btn-msg input{
+    display: none;
+}
+
+
+.accord-btn-msg span {
+    
+}
+.accord-btn-msg span a.btn {
+    width:100%;
+    background-color: green;
+}
+.accord-btn-msg input:checked ~ span a.btn {
+    background-color: red;
+    max-height: 100vh;
+}
+.accord-btn-msg span div {
+    background-color: #fff;
+    max-height: 0rem;
+    overflow: hidden;
+    transition: max-height 2s;
+}
+.accord-btn-msg input:checked ~ span div {
+    background-color: aqua;
+    max-height: 100vh;
+}
+
+.accord-button-2 {
+    position: relative;
+    width:100%;
+}
+
+.accord-button-2 .accord-btn-msg {
+    background-color: pink;
+}
+
+.accord-button-2 .accord-btn-msg span a.btn {
+    background-color: grey;
+    float: left;
+    width: 50%;
+    z-index: 1000;
+}
+.accord-button-2 .accord-btn-msg span {
+    width: 100%;
+}
+.accord-button-2 .accord-btn-msg span div {
+    position: absolute;
+    top:5.5rem;
+    min-width: 100em;
+    background-color: brown;
+    display: block;
+}
+
+div.current {
+    max-height: 100vh !important;
+}
+
+.frame-container {
+    position: fixed;
+    bottom: 0px;
+    right:2rem;
+    height:60vh;
+    width:40rem;
+    box-shadow: 0px 0px 3px grey, 0px 0px 5px whitesmoke;
+    display: none;
+}
+.frame-container .chat-text h1  {
+    opacity: 1;
+    transition: all 1s;
+}
+.frame-container:hover .chat-text h1 {
+    opacity:0;
+}
+
+.chat-container {
+    position: relative;
+    height:100%;
+}
+.close-btn-container {
+    position: absolute;
+    right:0;
+}
+.chat-text {
+    position: absolute;
+    top:0;
+}
+.chat-box-container {
+    height:100%;
+}
+
+.chat-box-container iframe{
+    border:none;
+}

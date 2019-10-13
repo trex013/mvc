@@ -1,0 +1,53 @@
+/*  By rexFoundations  */
+
+/*  
+	This can be used by copying the relevant 
+	code neccessary for your new work. copy 
+	to your new work the code and use the
+	classes.
+	Also copy the html too. Don't forget
+ 
+	This is the 'must put in your work css'. it is required in any
+	webpage you are to create..
+*/
+html {
+	font-size: calc((10/16)*100%);
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+body, * {
+	box-sizing: border-box;
+	font-size:1.6rem;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+.gen-container-1000px {
+	max-width: 100rem;
+	margin: 0 auto;
+}
+
+.center-v {
+	position: relative;
+}
+
+.center-v > * {
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.center-vh {
+	position: relative;
+}
+
+.center-vh > * {
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+}

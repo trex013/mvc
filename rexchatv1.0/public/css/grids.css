@@ -1,0 +1,215 @@
+/*  Grids CSS  */
+/*  By rexFoundations  */
+/*  This can be used by copying the relevant 
+	code neccessary for your new work. copy 
+	to your new work the code and use the
+	classes.
+	Also copy the html too. Don't forget
+*/
+/*
+	Note that the 'margin-bottom' of '.row' and 
+	'margin-right' of '.col' must be the same to get any 
+	'n by n' grid perfectly. except if n = 1 the you can 
+	do what you like
+/* 
+	if margin is 'x' then you subtract (margin-right)/6
+	to find the addition scale to be added to each 'col'
+	width taking 0 as col-6 addition value.
+	also subtract the addition value from the width from
+	col-1 to col-5
+	note for example, if (margin-right)/6 = 2
+	then you add 2% to the col-7 width and subtract 2% 
+	to the col-5 width,
+	add 4% to col-8 and subtract 4% from col-4
+	i.e the number to add or subtract to any col width is 
+	the (margin-right/6) * 1, 2, 3, 4, 5
+*/
+/*
+	Note: When using 'n_by_n', the margin-bottom of 
+	'n_by_n .row' should be the same as that of the 'col-'.
+	Also generally, to adjust these margins, we use the 
+	property of the selector with the 'not()' in it
+*/
+.n_by_n {
+	width: 100%;
+	background:rgb(204,204,204);/* optional */
+	margin:0 auto;
+	padding:1rem;
+}
+.n_by_n:not(:last-child) {
+	margin-bottom:3%;/* optional */
+}
+
+.n_by_n .row {
+	max-width:inherit;
+	background-color:inherit;
+	padding:0 !important;
+}
+
+.n_by_n .row:not(:last-child) {
+	margin-bottom:3% !important;
+}
+
+.row {
+	max-width: 100%;
+	margin:0 auto;
+	padding:0rem;/* optional */
+}
+
+.row::after {
+	content: "";
+	clear:both;
+	display:block;
+}
+
+.row:not(:last-child) {
+	margin-bottom: 3%;/* changeable */
+}
+
+[class*="col-"] {
+	float:left;
+	height: inherit;
+}
+
+[class*="col-"]:not(:last-child) {
+	margin-right:3%;/* changeable */
+
+}
+
+/*	
+	Note: The '3%' in the formular 'calc()' is for the
+	col-'s margin. 
+	So it is changable and must be changed 
+	througout the document of you want to adjust the 
+	margin
+*/
+
+.col-1 {
+	width:calc(((100% - 3%) * (1/12)) - ((3%/6) * 5));
+}
+
+/*  1  by  6  */
+.col-2 {
+	width:calc(((100% - 3%) * (2/12)) - ((3%/6) * 4));
+}
+
+/*  1  by  4  */
+.col-3 {
+	width:calc(((100% - 3%) * (3/12)) - ((3%/6) * 3));
+}
+
+/*  1  by  3  */
+.col-4 {
+	width:calc(((100% - 3%) * (4/12)) - ((3%/6) * 2));
+}
+
+/*  1  by  3  */
+.col-5 {
+	width:calc(((100% - 3%) * (5/12)) - ((3%/6) * 1));
+}
+
+/*  1  by  2  */
+.col-6 {
+	width:calc((100% - 3%) * (6/12));
+}
+
+/* 1 by  2 */
+.col-7 {
+	width:calc(((100% - 3%) * (7/12)) + ((3%/6) * 1));
+}
+
+/* 1 by  2 */
+.col-8 {
+	width:calc(((100% - 3%) * (8/12)) + ((3%/6) * 2));
+}
+
+/* 1 by  2 */
+.col-9 {
+	width:calc(((100% - 3%) * (9/12)) + ((3%/6) * 3));
+}
+
+/* 1 by  2 */
+.col-10 {
+	width:calc(((100% - 3%) * (10/12)) + ((3%/6) * 4));
+}
+
+/* 1 by  2 */
+.col-11 {
+	width:calc(((100% - 3%) * (11/12)) + ((3%/6) * 5));
+}
+
+/*  1  by  1 */
+.col-12 {
+	width:100%;
+}
+
+.content {
+	padding:2rem 1rem;/* optional */
+	overflow:hidden;
+}
+
+/*  No Margin  */
+
+
+.col-nm-1 {
+	width:calc(100% * (1/12));
+}
+
+/*  1  by  6  */
+.col-nm-2 {
+	width:calc(100% * (2/12));
+}
+
+/*  1  by  4  */
+.col-nm-3 {
+	width:calc(100% * (3/12));
+}
+
+/*  1  by  3  */
+.col-nm-4 {
+	width:calc(100% * (4/12));
+}
+
+/*  1  by  3  */
+.col-nm-5 {
+	width:calc(100% * (5/12));
+}
+
+/*  1  by  2  */
+.col-nm-6 {
+	width:calc(100% * (6/12));
+}
+
+/* 1 by  2 */
+.col-nm-7 {
+	width:calc(100% * (7/12));
+}
+
+/* 1 by  2 */
+.col-nm-8 {
+	width:calc(100% * (8/12));
+}
+
+/* 1 by  2 */
+.col-nm-9 {
+	width:calc(100% * (9/12));
+}
+
+/* 1 by  2 */
+.col-10 {
+	width:calc(100% * (10/12));
+}
+
+/* 1 by  2 */
+.col-11 {
+	width:calc(100% * (11/12));
+}
+
+/*  1  by  1 */
+.col-12 {
+	width:100%;
+}
+
+[class*="col-nm-"] {
+	margin: 0 !important;
+}
